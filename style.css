@@ -1,8 +1,8 @@
 body { margin: 0; padding: 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 18px; font-weight: bold; }
-header { background-image: linear-gradient(rgba(0, 0, 0, 0.65), transparent); color: white; position: absolute; width: 100%; padding: 10px; padding-bottom: 60px; padding-left: 40px; }
+header { box-sizing: border-box; background-image: linear-gradient(rgba(0, 0, 0, 0.65), transparent); color: white; position: absolute; width: 100%; padding: 10px; padding-bottom: 60px; padding-left: 40px; }
 header>span { padding-right: 50px; font-size: 16px; opacity: 0.8; cursor: pointer; }
 header>span:hover { opacity: 1.0; }
-header>span.r { position: absolute; right: 40px; }
+header>span.r { position: absolute; right: 40px; padding-right: 0; }
 img.hero { width: 100%; }
 h1 { background-color: #D0021B; color: white; font-size: 96px; padding: 20px; padding-top: 20px; font-weight: bold; display: inline-block; position: absolute; right: 0; }
 h2 { background-color: #D0021B; color: white; font-size: 72px; padding: 10px; display: inline-block; margin: 0; margin-top: -40px; }
